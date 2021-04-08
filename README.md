@@ -5,9 +5,11 @@ AUTHOR AND POINT OF CONTACT
 Matthew Carr matt@saeon.ac.za
 
 SCRIPTS
+
 MHW_threshold_nedcdf_clean.py, MHW_tracker_clean.py
 
 DEPENDANCIES
+
 - math
 - numpy
 - natsort
@@ -18,6 +20,7 @@ DEPENDANCIES
 - itertools
 
 DESCRIPTION
+
 The two scripts MHW_threshold_nedcdf_clean.py and MHW_tracker_clean.py are designed to be run in succession in 
 order to identify the spatial extent marine heat waves (MHW). MHW are identified following the parameters 
 described by Hobday et al. 2016 (https://doi.org/10.1016/j.pocean.2015.12.014). This tool is designed to 
@@ -26,6 +29,7 @@ the caterory of the MHW events. Research users are encoraged to use the MHW dete
 https://github.com/ecjoliver/marineHeatWaves.
 
 ADDITIONAL INFORMATION 
+
 Each script has a header describing the inputs required, user requirements and outputs produced. The document 
 Marine_heat_wave_report.docx provides a show summary of the performance of the scripts relative to MHW detection 
 code provided by https://github.com/ecjoliver/marineHeatWaves.
